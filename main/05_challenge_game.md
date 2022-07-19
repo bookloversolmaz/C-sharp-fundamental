@@ -166,7 +166,7 @@ public Integer GetRandomWordFromDictionary() {
 ```
 
 
-[Next Challenge](06_challenge_word_choser.md)
+[Next Challenge](06_challenge_word_chooser.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

@@ -39,17 +39,27 @@ dotnet new console --name CSharp.Intro
 ```
 That command should make a new folder wherever you are called "CSharp.Intro". This might seem like a weird folder name, but it's pretty standard for C# and .Net. You'll want to work in that folder for a while, so you might want to open it in VS Code.
 
-Write the following code into the file named `Program.cs` in your CSharp.Intro folder, replacing what's already there. Maybe you'll see some similarities with the syntax of programming languages you've previously learned, and notice some other things that are different. Don't worry too much about the bits of code you don't fully understand right now, as we'll get there.
+Write the following code into the file named `Program.cs` in your CSharp.Intro folder, replacing what's already there. Maybe you'll see some similarities with the syntax of programming languages you've previously learned, and notice some other things that are different. Be sure to make a note of anything you're unsure about.
+
+<!-- OMITTED -->
 
 ```cs
+// imports classes, such as `Console` that are defined in the `System` namespace
 using System;
 
+// a `namespace` is a container (or scope) for classes
 namespace CSharp.Intro
 {
+    // this is a class - don't worry about the `internal` bit for now
     internal class Program
     {
+        // static methods are like Ruby's class methods
+        // void means that this method returns nothing
+        // the main method takes an array of strings as an arg - `string[]`
         static void Main(string[] args)
         {
+            // The main method is called automatically when you execute the program
+            // When that happens, you'll see "Hello, Makers!" printed to the terminal
             Console.WriteLine("Hello Makers!");
         }
     }

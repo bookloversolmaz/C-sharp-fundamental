@@ -15,30 +15,28 @@ In this module, you'll first see how to write and execute basic C# programs, and
 * Explain the main differences between C# and a language like Ruby.
 * Apply a coherent process to learn a new language.
 
-## Pairing challenge 
+## Getting Started
 
 1. [Your first C# program](./main/01_first_csharp_program.md) 
 2. [Types and compilation](./main/02_compile_error.md)
-3. [IDE setup](./main/03_ide.md) <!--- (TODO everything below this refers to Java, needs updating once the pages are in place) -->
-4. [Testing with JUnit](./main/04_testing_with_nunit.md)
-5. [Building a word-guessing game - Part I](./main/05_challenge_game.md)
-6. [Building a word-guessing game - Part II](./main/06_challenge_word_choser.md)
-7. [Building a word-guessing game - Part III](./main/07_challenge_player_guess.md)
-9. [Building a word-guessing game - Part IV](./main/08_challenge_guessed_letters.md)
-10. [Building a word-guessing game - Part V](./main/09_challenge_game_over.md)
+3. [IDE setup](./main/03_ide.md)
 
-## Possible workshops
+## Pairing challenge 
 
- * [Java types](./workshops/typing)
- * [Debugging in Java](./workshops/debugging)
+1. [Testing with NUnit](./main/04_testing_with_nunit.md)
+2. [Building a word-guessing game - Part I](./main/05_challenge_game.md)
+3. [Building a word-guessing game - Part II](./main/06_challenge_word_chooser.md)
+4. [Building a word-guessing game - Part III](./main/07_challenge_player_guesses.md)
+5. [Building a word-guessing game - Part IV](./main/08_challenge_guessed_letters.md)
+6. [Building a word-guessing game - Part V](./main/09_challenge_game_over.md)
 
 ## Practicals and resources for self-directed learning
 
- * [Java Types](./practicals/typing)
- * [Java classes](https://www.w3schools.com/java/java_classes.asp)
- * [Testing with JUnit](https://www.youtube.com/watch?v=60yrTfVdFwo)
- * [Mocking and stubbing with JUnit and mockito](https://semaphoreci.com/community/tutorials/stubbing-and-mocking-with-mockito-2-and-junit)
- * [Technical resources](https://airtable.com/shrAKyt6Eh7t93bCn)
+ * [C# Types](./practicals/typing)
+ * [C# classes](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes#declaring-classes)
+ * [Testing with NUnit](https://docs.nunit.org/articles/nunit/intro.html)
+ * [Mocking and stubbing with NUnit and NSubstitute](https://nsubstitute.github.io/help/getting-started/)
+
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

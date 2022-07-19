@@ -54,8 +54,8 @@ Enter one letter to guess (9 attempts remaining):
 Someone from your cohort wrote the following code in the `Main` method, however when trying out the game, it doesn't behave at all as expected. They also tell you they've used a [`do-while` loop](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement) to implement the game loop. Can you find out what the problem is?
 
 ```csharp
-WordChoser choser = new WordChoser();
-Game game = new Game(choser);
+WordChoser chooser = new WordChoser();
+Game game = new Game(chooser);
 System.Console.WriteLine("Welcome! Today the word to guess is:");
 
 do {
