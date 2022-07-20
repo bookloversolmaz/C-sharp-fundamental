@@ -18,6 +18,8 @@ To complete the exercise, fix each example in turn so that the program will comp
 4. **Focusing only on typing**, fix the code
 5. Do the same for example 2 and 3
 
+[Here's a video demonstration of the above]()
+
 ## Example 1
 
 ```csharp
