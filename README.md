@@ -32,9 +32,11 @@ In this module, you'll first see how to write and execute basic C# programs, and
 
 ## Practicals and resources for self-directed learning
 
+<!-- OMITTED -->
+
  * [C# Types](./practicals/typing)
  * [C# classes](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes#declaring-classes)
- * [Testing with NUnit](https://docs.nunit.org/articles/nunit/intro.html)
+ * [Testing with NUnit](https://github.com/makersacademy/csharp_tdd_fizzbuzz)
  * [Mocking and stubbing with NUnit and NSubstitute](https://nsubstitute.github.io/help/getting-started/)
 
 
