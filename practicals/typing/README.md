@@ -18,7 +18,7 @@ To complete the exercise, fix each example in turn so that the program will comp
 4. **Focusing only on typing**, fix the code
 5. Do the same for example 2 and 3
 
-[Here's a video demonstration of the above]()
+[Here's a video demonstration of the above](https://youtu.be/1P-_czPOE6w)
 
 ## Example 1
 
@@ -41,6 +41,8 @@ namespace TypingPractical
   }
 }
 ```
+
+[Watch this if you're feeling lost](https://youtu.be/2b3YgZdL0XM)
 
 ## Example 2
 
