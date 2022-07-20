@@ -4,9 +4,21 @@ This practical intends to train the following learning objectives:
   * Recognise which types are needed in a C# program.
   * Implement typing information on variables and methods in a C# program.
 
-In the following examples, *types* are missing in some places — you will need to add them so that the code can be compiled and run using `dotnet run`.
+## Introduction
 
-### Example 1
+In the following examples, *types* are missing in some places.
+
+To complete the exercise, fix each example in turn so that the program will compile and execute.
+
+## Getting Started
+
+1. Create a new command line project `dotnet new console --name TypingPractical`
+2. Delete all the code you find in `Program.cs`
+3. Replace it with the code in Example 1
+4. **Focusing only on typing**, fix the code
+5. Do the same for example 2 and 3
+
+## Example 1
 
 ```csharp
 using System;
@@ -28,7 +40,7 @@ namespace TypingPractical
 }
 ```
 
-### Exercise 2
+## Example 2
 
 ```csharp
 using System.Collections;
@@ -77,7 +89,7 @@ namespace TypingPractical
 }
 ```
 
-### Example 3
+## Example 3
 
 ```csharp
 using System;
