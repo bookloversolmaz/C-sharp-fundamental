@@ -20,15 +20,15 @@ In this module, you'll first see how to write and execute basic C# programs, and
 1. [Your first C# program](./main/01_first_csharp_program.md) 
 2. [Types and compilation](./main/02_compile_error.md)
 3. [IDE setup](./main/03_ide.md)
+4. [Testing with NUnit](./main/04_testing_with_nunit.md)
 
 ## Pairing challenge 
 
-1. [Testing with NUnit](./main/04_testing_with_nunit.md)
-2. [Building a word-guessing game - Part I](./main/05_challenge_game.md)
-3. [Building a word-guessing game - Part II](./main/06_challenge_word_chooser.md)
-4. [Building a word-guessing game - Part III](./main/07_challenge_player_guesses.md)
-5. [Building a word-guessing game - Part IV](./main/08_challenge_guessed_letters.md)
-6. [Building a word-guessing game - Part V](./main/09_challenge_game_over.md)
+1. [Building a word-guessing game - Part I](./main/05_challenge_game.md)
+2. [Building a word-guessing game - Part II](./main/06_challenge_word_chooser.md)
+3. [Building a word-guessing game - Part III](./main/07_challenge_player_guesses.md)
+4. [Building a word-guessing game - Part IV](./main/08_challenge_guessed_letters.md)
+5. [Building a word-guessing game - Part V](./main/09_challenge_game_over.md)
 
 ## Practicals and resources for self-directed learning
 
