@@ -79,8 +79,10 @@ After completing the following, you should be able to make this first test pass.
 <!-- OMITTED -->
 
 To complete this exercise, you'll need to:
-  * Implement [a constructor](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
-  * Use a loop to iterate on each character of a string.
+  * Implement a constructor
+    * [Official docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
+    * [Using constructors in FizzBuzz](https://www.youtube.com/watch?v=g0QWUJbMQDQ)
+  * Use a [loop](./bites/loops_bite.md) to iterate on each character of a string
   * Use C#'s [`StringBuilder` class](https://www.dotnetperls.com/stringbuilder).
 
 ### Questions

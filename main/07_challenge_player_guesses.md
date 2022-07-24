@@ -6,7 +6,7 @@ We'll now have a look at how to implement the next part of the game specificatio
  * Understanding the difference between `string` and `char` and how they're both defined.
  * Checking if a `char` is in a `string`.
  * Use conditionals.
- * Use `ArrayList` to store a dynamic list of values.
+ * Use `List` to store a dynamic list of values.
  * Define attributes, read and update their values.
 
 ## About Strings and Characters
@@ -32,7 +32,7 @@ To complete this exercise, you'll need to:
  * Write some tests for the `GuessLetter` method.
  * Use the `char` type.
  * Check if a character is present within a string.
- * Use the [`ArrayList` class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=net-6.0) — it can store a "dynamic" array of values (we can add items to it).
+ * Use the [`List` class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-6.0) — it can store a "dynamic" array of values (we can add items to it).
 
 ### Questions
 
@@ -63,13 +63,29 @@ public bool GuessLetter(string letter) {
 
 ## Generic types
 
-In C#, the class `ArrayList` is what we call a *generic type* (or simply a "generic").
+In C#, the class `List` is what we call a *generic type* (or simply a "generic"). It's similar to Ruby's Array class in that it can be used to store a collection, or list, of things.
 
-Let's take a moment to think about what an array is — an Array is a list of elements. What is the type of each element? Remember that C# cares a lot about the types we need to store and manipulate in our programs. A list of numbers is not going to have the same size in memory than a list of strings, data objects, or even a list of lists!
+One big difference is that, unlike Ruby Arrays, all elements in a C# `List` must be of the same _type_. Why? Well, a list of numbers is not going to have the same size in memory than a list of strings, data objects, or even a list of lists! So C# needs to know what type of thing a `List` will hold so that an appropriate amount of memory can be allocated.
 
-All `ArrayList`s have the same functionality — we can add, remove, list items in the array, which is why we call such a type "generic". But when actually using it, C# needs to know which *type* this list will contain. Which is why the *actual type* of an array list will be something like `ArrayList<string>` (for a list of `string`) or `ArrayList<char>` (for a list of `char`). The type inside the two chevrons `<>` is called the *type parameter*.
+All `List`s have the same functionality, regardless of their contents — we can add, remove and list out all items in the `List`, which is why we call such a type "generic".
 
-The type parameter can be a native C# class (i.e type), but also a custom class. Therefore, assuming we have a class `Student`, it's possible to declare an array of students using `ArrayList<Student>`
+When creating a `List`, we must provide a type parameter, like this...
+
+```csharp
+// An empty List of strings
+List<string> names = new List<string>();
+// An empty List of ints
+List<int> numbers = new List<int>{1,2,3,4,5};
+```
+
+Those would create empty `List`s, that are ready for you to `.Add` some `string`s or `int`s. If you want to create a `List` with some stuff already in it, you can do this...
+
+```csharp
+List<string> names = new List<string>{"Sue", "Radha", "Pawel"};
+List<int> numbers = new List<int>{1,2,3,4,5};
+```
+
+The type parameter can be a native C# class (i.e type), but also a custom class. Therefore, assuming we have a class `Student`, it's possible to declare a `List` of students using `List<Student>`
 
 ## Exercise - shopping list
 
@@ -78,7 +94,7 @@ The type parameter can be a native C# class (i.e type), but also a custom class.
 This exercise is a little break from our game. You should work on it in a different project directory. To complete it, you'll have to:
 * Write NUnit tests.
 * Declare a class and its methods.
-* Use the generic type `ArrayList` with different type parameters.
+* Use the generic type `List` with different type parameters.
 
 ### Questions
 
@@ -95,7 +111,7 @@ ShoppingList list = new ShoppingList();
 list.addItem(new ShoppingItem("HP sauce", 4.99));
 list.addItem(new ShoppingItem("Ketchup", 3.99));
 
-list.getItems(); // should return an ArrayList<ShoppingItem> of size 2.
+list.getItems(); // should return a List<ShoppingItem> of size 2.
 ```
 
 ## Exercise - debugging

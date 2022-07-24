@@ -71,7 +71,7 @@ We're now going to run the following command:
 dotnet build
 ```
  
-Use `ls` to list the files in this directory. What new folders do you notice?
+Use `ls` to list the files in this directory. What new folders do you notice? What does `bin` mean?
 
 Let's now run this other command:
 
@@ -97,14 +97,18 @@ In C#, however, a C# file needs first to be *compiled* to an executable program.
 
 Let's have a look at a slightly more complex C# program:
 ```cs
+using System;
+
 namespace CSharp.Intro
 {
   class Calculator
   {
+    // what does this method return?
     public void Calculate()
     {
+      // note that the we have to declare a type (int) for the variable (result)
       int result = 2 + 2;
-      System.Console.WriteLine("The result is {0:d}", result);
+      Console.WriteLine("The result is {0:d}", result);
     }
   }
 }
@@ -180,7 +184,7 @@ If the method returns something other than an `int` or `string` the type of that
 <!-- OMITTED -->
 
 To complete this exercise, you'll have to:
-  * Define a new class and call it from your `main` method.
+  * Define a new class and call it from your `Main` method.
   * Use `Console.WriteLine`.
   * Use the `DateTime` class.
 

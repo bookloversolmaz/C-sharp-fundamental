@@ -56,7 +56,7 @@ namespace TypingPractical
   {
     public static void Main(string[] args)
     {
-      ArrayList names = new ArrayList();
+      List<string> names = new List<string>();
 
       names.Add("Kyle");
       names.Add("Sophie");
@@ -77,7 +77,7 @@ namespace TypingPractical
       }
     }
 
-    public IsInArray(ArrayList names, string nameToFind)
+    public IsInArray(List names, string nameToFind)
     {
       foreach(String name in names)
       {

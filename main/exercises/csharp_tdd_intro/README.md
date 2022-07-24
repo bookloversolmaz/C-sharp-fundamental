@@ -1,6 +1,6 @@
 # C# TDD Intro
 
-A template for your first TDD exercises with C#.
+A series of exercises to learn TDD in C#.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ A template for your first TDD exercises with C#.
 
 ## Exercises
 
-Instructions for each exercise are provided [here](../../04_testing_with_nunit.ed.md)
+Instructions for each exercise are provided [here](../../04_testing_with_nunit.md)
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
