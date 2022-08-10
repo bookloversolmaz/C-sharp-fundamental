@@ -136,10 +136,7 @@ To complete this exercise, you'll need to:
 ### Questions
 
 1. Modify the `Game` class so it holds the number of remaining attempts for the player. This counter should be initialised at 10.
-2. Test-drive a new method `GetRemainingAttempts()` to verify the game is created with the correct number of remaining attempts. You should end up with an output similar to this one in your tests explorer (2 tests or more):
-
-<!-- OMITTED -->
-<img src="resources/hangman-tests1.png" width="300" height="100">
+2. Test-drive a new method `GetRemainingAttempts()` to verify the game is created with the correct number of remaining attempts.
 
 ## Exercise - a random word
 
