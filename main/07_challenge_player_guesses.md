@@ -32,7 +32,7 @@ To complete this exercise, you'll need to:
  * Write some tests for the `GuessLetter` method.
  * Use the `char` type.
  * Check if a character is present within a string.
- * Use the [`List` class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-6.0) — it can store a "dynamic" array of values (we can add items to it).
+ * Use the [`List` class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0) — it can store a "dynamic" array of values (we can add items to it).
 
 ### Questions
 
@@ -125,6 +125,7 @@ ShoppingList list = new ShoppingList();
 
 list.addItem(new ShoppingItem('HP sauce', 4.99));
 ```
+
 
 [Next Challenge](08_challenge_guessed_letters.md)
 
