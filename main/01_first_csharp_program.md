@@ -26,7 +26,7 @@ Once this is done, you should be able to check the installed .Net version by typ
 ```
 dotnet --version
 
-6.0.301
+7.0.302
 ```
 
 ## Hello, C#
@@ -67,16 +67,17 @@ namespace CSharp.Intro
 ```
 
 We're now going to run the following command:
+
 ```
 dotnet build
 ```
  
-Use `ls` to list the files in this directory. What new folders do you notice? What does `bin` mean?
+If you read the output of this command carefully you will see that it has built something in `bin/Debug/net7.0`. Run `ls bin/Debug/net7.0` to see what it has put there.
 
-Let's now run this other command:
+Let's now run our built program:
 
 ```zsh
-./bin/Debug/net6.0/CSharp.Intro 
+./bin/Debug/net7.0/CSharp.Intro 
 ```
 
 If everything worked, you should see the message "Hello, Makers!" printed to the terminal. Congratulations, you just wrote your first C# program!
@@ -91,12 +92,14 @@ You've noticed we had to go through two different steps to run this program, rat
 
 Probably not. The truth is that, C# is different from a language like Ruby (or Javascript) in the way programs are created and run. In a language like Ruby, the code is read and interpreted by the Ruby interpreter (the `ruby` program) and executed at the same time.
 
-In C#, however, a C# file needs first to be *compiled* to an executable program. You might notice that we called that compiled program - it's called `CSharp.Intro` and it's sitting in our `bin/Debug/net6.0` directory. That program's just sitting there, though - we need to explicitly call it to run it.
+In C#, however, a C# file needs first to be *compiled* to an executable program. You might notice that we called that compiled program - it's called `CSharp.Intro` and it's sitting in our `bin/Debug/net7.0` directory. That program's just sitting there, though - we need to explicitly call it to run it.
 
 ## Exercise: a second program
 
-Let's have a look at a slightly more complex C# program:
+Let's have a look at a slightly more complex C# program. Write this code in a new file:
+
 ```cs
+// File: Calculator.cs
 using System;
 
 namespace CSharp.Intro
@@ -114,10 +117,8 @@ namespace CSharp.Intro
 }
 ```
 
-<!-- OMITTED -->
-
 1. *Compile* this C# code using `dotnet build`.
-2. *Run* the compiled C# code using `./bin/Debug/net6.0/CSharp.Intro`.
+2. *Run* the compiled C# code using `./bin/Debug/net7.0/CSharp.Intro`.
 
 What do you see?
 
@@ -129,9 +130,17 @@ Oops! We didn't call our new class :flushed:
 
 Let's update our Program class to call it:
 ```cs
-static void Main(string[] args)
+using System;
+
+namespace CSharp.Intro
 {
-    new Calculator().Calculate();
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            new Calculator().Calculate();
+        }
+    }
 }
 ```
 
@@ -142,10 +151,10 @@ The result is 4
 
 ## Run, Dotnet, Run
 
-Instead of first compiling with `dotnet build`, and then running the program with `./bin/Debug/net6.0/CSharp.Intro`, we can do both in one step and write:
+Instead of first compiling with `dotnet build`, and then running the program with `./bin/Debug/net7.0/CSharp.Intro`, we can do both in one step and write:
 
 ```bash
-$ dotnet run
+; dotnet run
 The result is 4
 ```
 
@@ -194,7 +203,7 @@ To complete this exercise, you'll have to:
 2. Implement this method so it prints the current time in the terminal, like this:
 
 ```bash
-$ dotnet run
+; dotnet run
 The current time is 15:05
 ```
 
