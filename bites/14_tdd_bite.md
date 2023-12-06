@@ -85,7 +85,7 @@ drive us to define the `Game` class, the constructor and the `Guess`
 method.
 
 ```cs
-public class Game {
+class GameTests {
   [Test]
   public void Guess_TooLow_ReturnsHigher() {
     Game game = new Game(10);
@@ -98,7 +98,10 @@ public class Game {
 
 Now we can take a moment to break this down.
 
-* [Test] is what NUnit calls an _attribute_. In this case, it tells NUnit that the method which follows should be run as a test.
+* `[Test]` is what NUnit calls an _attribute_. In this case, it tells NUnit that the method which follows should be run as a test.
+
+* `public` is an access modifier, as you know! Test methods must be `public` because of the way in which they are executed by NUnit. If you get this wrong, your text editor and / or the compiler will let you know :)
+
 * `Guess_TooLow_ReturnsHigher` test, which I have named according to this pattern `MethodUnderTest_StateUnderTest_ExpectedOutcome`. You should use the same pattern when naming your tests later on.
 
 * `Assert.AreEqual` is an _assertion_ and by using it we're saying that the return value of `Game.Guess(5)` should be equal to (the same as) `"higher"`. This assertion, along with `Assert.AreNotEqual` will get you a long way.
@@ -119,9 +122,41 @@ everything you need in order to complete the `Game` class using TDD.
 
 1. Do just enough to satisfy the compiler and no more. For example, you'll need
 to define the `Game` class.
-2. Make the first test that we wrote together pass.
-3. Complete the program by test driving two more scenarios, one where player two
+2. The `Game` class, its constructor and any methods under test should be `public`
+3. Make the first test that we wrote together pass.
+4. Complete the program by test driving two more scenarios, one where player two
 guesses too high, and one where player two guesses correctly.
+
+<br>
+<details>
+  <summary>Does the <code>Game</code> class and its methods really need to be <code>public</code>?</summary>
+  <p>Actually, no but it's the simplest approach. They have to be accessible to the <code>Game.Test</code> project, which is a separate assembly, but there is another way to achieve that which doesn't involve making things <code>public</code></p>
+  <p>
+  If you want to try it, do the following...
+  <ol>
+  <li>
+  Create a file called <code>AssemblyInfo.cs</code> alongside <code>Diary.csproj</code>
+  </li>
+  <li>
+  Add this to the new file
+  <br>
+  <code>
+  using System.Runtime.CompilerServices;
+  <br>
+  [assembly: InternalsVisibleTo("Diary.Tests")]
+  </code>
+  <br>
+  </li>
+  <li>
+  Make your <code>Game</code> class and its methods internal
+  </li>
+  <li>
+  Run your tests!
+  </li>
+  </ol>
+  </p>
+</details>
+<br>
 
 [Example Solution]()
 

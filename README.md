@@ -36,6 +36,7 @@ Once this is done, you should be able to check the installed .Net version by typ
 
 The following VSCode extensions are going to be very useful, so install them now.
 
+* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 * ['C# for Visual Studio Code (powered by OmniSharp)'](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
 * [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer).
 
