@@ -113,7 +113,7 @@ Then:
 ## Exercise 3
 
 This one is quite challenging, so don't be disheartened if you get stuck and 
-have to check the example solution! (But do take a moment to digest the video 
+have to check the example solution! (But do take a moment to digest the video, if you watch it, 
 before moving on.)
 
 Define a class called `RockPaperScissors` which has:
@@ -148,9 +148,9 @@ points value.
 Scrabble score for the word, as an `int` e.g.:
 
 ```cs
-\\ Scrabble player places down the word "EXQUISITELY"
-calculate("EXQUISITELY");
-\\ => 30
+//  Scrabble player places down the word "EXQUISITELY"
+ScrabbleScore.Calculate("EXQUISITELY");
+//  => 30
 ```
 
 __Note__: In the English language version of

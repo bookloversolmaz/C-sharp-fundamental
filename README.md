@@ -63,7 +63,9 @@ tagged with a :satellite:.
 11. [Data Structures - Part 1](./bites/11_data_structures_1_bite.md)
 12. [Data Structures - Part 2](./bites/12_data_structures_2_bite.md)
 13. [Interfaces](./bites/13_interfaces_bite.md)
-14. [Test Driven Development](./bites/14_tdd_bite.md) :satellite:
+14. [Inheritance](./bites/14_inheritance_bite.md)
+15. [Polymorphism](./bites/15_polymorphism_bite.md)
+16. [Test Driven Development](./bites/16_tdd_bite.md) :satellite:
 
 ## Phase 2 - Bank
 

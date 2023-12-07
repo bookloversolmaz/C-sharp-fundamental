@@ -152,6 +152,58 @@ You'll see both arrays and `List`s used in the wild. At some point,
 you'll probably make the wrong choice - it happens to us all - then you'll get 
 feedback and learn from the mistake :)
 
+## Beyond Loops
+
+There are two additional tools you can use with both lists and arrays which allow you to generate new lists or arrays based on a rule. For example, you might want to make a new array of cats by choosing `famousCats` which start with the letter `L`. Or, you might want to create a new list of cats, based on `famousCats`, where each name has `!!!` at the end. The tools you need to do these two things, respectively, are `Where` and `Select`. Here's how they work.
+
+### `Where`
+
+`Where` is a bit like the `WHERE` clause in SQL - it's used to choose elements from an existing array based on a rule. For example, you could use `Where` to select all the famous cats whose name starts with the letter `L`.
+
+```cs
+string[] lCats = famousCats.Where(cat => cat[0] == 'L').ToArray();
+```
+
+You might be a little thrown by `cat => cat[0] == 'L'` - this is what's used to apply the "starts with L" rule and it's called a _lambda function_. Lambda functions are like method except that they don't belong to any specific classes. They are kind of 'independent' and they can be used as arguments (as we're doing here). You could think of them as being like freelance workers (whereas methods are more like permanent employees).
+
+You'll see lambda functions used in a few different places.
+
+> What happens if you leave out `.toArray()`?
+
+
+### `Select`
+
+You might feel `Select` is an odd choice of name, once you understand what it does, so brace yourself for that. `Select` can be used to generate a new list or array of the same length as the original, but with a transformation applied to each element. For example, if you wanted to add `!!!` onto the end of each famous cat's name, you could use `Select`.
+
+```cs
+// hooray - another lambda function!
+string[] exclaimedCats = famousCats.Select(cat => string.Concat(cat, "!!!")).ToArray();
+```
+
+### Further examples of `Select` and `Where`
+
+Here are some more examples. You should give them a try and, also, try some of your own
+
+```cs
+// declare a small array of ints
+int[] numbers = {1,2,3,4,5,6};
+
+// create a new array by doubling each number
+int[] doubledNumbers = numbers.Select(number => number * 2).toArray();
+// the new array will be: {2,4,6,8,10,12}
+
+// create a new array by dividing each number by itself
+int[] dividedBySelf = numbers.Select(number => number / number).toArray();
+// the new array will be: {1,1,1,1,1,1}
+
+// create a new array using only the even numbers
+int[] evenNumbers = numbers.Where(number => number % 2 == 0).toArray();
+// the new array will be: {2,4,6}
+
+// create a new array using only the numbers above 3
+int[] aboveThree = numbers.Where(number => number > 3).toArray();
+```
+
 ## Demonstration
 
 [Demonstration Video]()

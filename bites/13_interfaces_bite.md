@@ -116,7 +116,7 @@ yourself how each class implements each method in the `BirdBehaviours`
 interface :)
 
 
-[Next Challenge](14_tdd_bite.md)
+[Next Challenge](14_inheritance_bite.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
