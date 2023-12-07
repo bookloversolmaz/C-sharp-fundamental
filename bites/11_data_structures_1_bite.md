@@ -56,7 +56,7 @@ contentsOfMyPocket[1]
 contentsOfMyPocket[2]
 ```
 
-Finally, if you want to remove something from a list, you can use the `Remove` method.
+If you want to remove something from a list, you can use the `Remove` method.
 
 ```cs
 contentsOfMyPocket.Remove("keys");
@@ -130,7 +130,25 @@ famousCats[0] = "Grumpy Cat";
 famousCats[0] = null;
 ```
 
-> You'll see both arrays and `List`s used in the wild. At some point, 
+What if you wanted to create an empty array and add things later? You can do that too.
+
+```cs
+// create an empty string array with 4 slots
+string[] famousCatsSeenToday = string[4];
+
+// add an item
+famousCatsSeenToday[0] = "Puss in Boots"
+```
+
+As with lists, you can iterate through arrays using `foreach`
+
+```cs
+foreach(string cat in famousCats) {
+  Console.WriteLine(cat);
+}
+```
+
+You'll see both arrays and `List`s used in the wild. At some point, 
 you'll probably make the wrong choice - it happens to us all - then you'll get 
 feedback and learn from the mistake :)
 
