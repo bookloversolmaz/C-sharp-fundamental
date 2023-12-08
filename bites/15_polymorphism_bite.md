@@ -30,10 +30,27 @@ Polymorphism might not be something you _consciously_ use a lot in the near futu
 
 ## Exercise
 
+Define a class called `PetCarrier` alongside `Cat` and `Dog`. Give it a method called `Add` which takes either a `Cat` or `Dog` and assigns it to a variable called `Contents`.
+
+Use `Program.Main` to check everything works as intended...
+
+```cs
+// in Program.Main
+Cat cat = new Cat("dave");
+Dog dog = new Dog("ethel");
+
+PetCarrier catCarrier = new PetCarrier();
+// Add accepts an instance of Cat
+catCarrier.Add(cat)
+catCarrier.Contents // => cat
+
+PetCarrier dogCarrier = new PetCarrier();
+// Add accepts an instance of Dog
+dogCarrier.Add(dog);
+dogCarrier.Contents // => dog
+```
+
 [Example Solution]()
-
-## Challenge
-
 
 
 [Next Challenge](16_tdd_bite.md)

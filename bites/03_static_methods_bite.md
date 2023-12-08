@@ -92,11 +92,37 @@ class Program
     }
 
     // note that `void` has been replaced with `string`
-    static string Alert(message) {
+    static string Alert(string message) {
       return message;
     }
 }
 ```
+
+### Method Overloading
+
+It might surprise you to know that you could actually do this...
+
+```cs
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Alert("HINT: This method must now return a string!"));
+    }
+
+    static string Alert() {
+        return "default alert!!";
+    }
+
+    static string Alert(string message) {
+      return message;
+    }
+}
+```
+
+This is because, in C#, the _arguments are part of the method definition_. I.e. `Alert()` and `Alert(string message)` are different methods and C# will execute the appropriate one, depending on whether or not a `string` argument is supplied.
+
+This is called 'method overloading'. You'll see it used here and there, especially with constructors.
 
 ## Demonstration
 

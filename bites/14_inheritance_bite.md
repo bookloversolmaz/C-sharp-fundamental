@@ -105,12 +105,14 @@ class Post {
 
 [Demonstration Video]()
 
-## Exercise
+## Exercises
+
+- Reflect on both interfaces and inheritance. When would you use one or the other?
+- Define a parent class called `Animal` and two child classes called `Cat` and `Dog`
+- Give `Animal` some methods which the child classes will inherit
+- Play with these classes in `Program.Main` and check that everything works
 
 [Example Solution]()
-
-## Challenge
-
 
 
 [Next Challenge](15_polymorphism_bite.md)

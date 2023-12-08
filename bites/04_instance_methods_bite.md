@@ -80,6 +80,22 @@ void MyMethod() {
 }
 ```
 
+### Method Overloading
+
+Instance methods can be 'overloaded' in exactly same way was static methods.
+
+```cs
+// an instance method called MyMethod
+void MyMethod() {
+  Console.WriteLine("an instance method")
+}
+
+// a second method with the same name but different args
+void MyMethod(string message) {
+  Console.WriteLine(message)
+}
+```
+
 ## Demonstration
 
 [Demonstration Video](https://youtu.be/HiYWtOU6v7M)
