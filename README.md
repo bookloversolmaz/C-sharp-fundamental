@@ -3,7 +3,7 @@
 _Coaching this? Read the coach guidance
 [here.](https://github.com/makersacademy/slug/blob/main/materials/universe/language_intros/challenges/csharp/README.ed.md)_
 
-C# is a very popular language in the software world. It can be used to build a lot of different kind of programs, including desktop, web applications and games. If you've previously learned a language like Ruby or Javascript, C# is going to feel really different in a number of interesting ways! :)
+C# is a very popular language in the software world. It can be used to build a lot of different kind of programs, including desktop, web applications and games. Compared to Python, C# is going to feel really different in a number of interesting ways! :)
 
 In this module, you'll first work through some introductory bites, each of 
 which focuses on one thing, then you'll be challenged to bring everything 
@@ -12,8 +12,8 @@ together in an extended programming exercise.
 ## Learning objectives
 
 * Apply a coherent process to learn a new language.
-* Explain the main differences between C# and a language like Python.
-* Test-drive a simple C# program.
+* Explain the main differences between C# and Python.
+* Test-drive a small C# program.
 
 Very few people will complete all of the materials (and that's fine) but if 
 you have any concerns, please reach out to your coach ASAP.
@@ -44,7 +44,7 @@ The following VSCode extensions are going to be very useful, so install them now
 
 ## Phase 1 - C# syntax, NUnit and ASP.NET
 
-You'll probably find that you complete the first few bites quickly whilst the last few will take a bit longer. Don't feel that you need to memorise everything before moving on - you can always come back here for a recap. You'll also find that several concepts come up repeatedly as you progress, so there will be opportunities to get further practice.
+You'll probably find that you complete the first few bites quickly whilst the last few will take a bit longer. Don't feel that you need to memorise everything before moving on - you can always go back for a recap. You'll also find that several concepts come up repeatedly as you progress, so there will be opportunities to get further practice.
 
 Some of these challenges include Process Feedback Challenges, in which you share
 resources like recordings or files with your coach(es) for feedback. These are

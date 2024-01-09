@@ -9,7 +9,7 @@ set up correctly.)
 
 Running C# programs with `dotnet` is pretty straightforward.
 
-First, open a terminal and navigate to `csharp_fundamentals/bites/examples/CSharp.RunningCode`. Then you can run some Java code that we wrote:
+First, open a terminal and navigate to `csharp_fundamentals/bites/examples/CSharp.RunningCode`. Then you can run some C# code that we wrote:
 
 ```shell
 # You should see a "Hello, World!" message printed to your terminal when you do this
