@@ -14,7 +14,7 @@ namespace CSharp.Main
         {
             // The Main method is called automatically when you execute the program
             // When that happens, you'll see "Hello, Makers!" printed to the terminal
-            Console.WriteLine("Hello, World!")
+            Console.WriteLine("Hello, World!");
         }
     }
 }
