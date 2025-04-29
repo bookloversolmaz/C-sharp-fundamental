@@ -1,4 +1,4 @@
-﻿namespace CSharp.Quiz;
+﻿namespace CSharp.Loops;
 
 class Program
 {
