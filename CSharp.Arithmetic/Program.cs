@@ -1,9 +1,22 @@
 ﻿namespace CSharp.Arithmetic;
 
-class Program
+class Order
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
+internal int total;
+    internal Order(int total) {
+        this.total = total;
     }
+    public int AddAmount(int total) {
+        total += 1;
+    }
+
+    public int ApplyDiscount(int total) {
+        
+    }
+    static void Main(int[] args)
+    {
+        
+    }
+
+
 }
