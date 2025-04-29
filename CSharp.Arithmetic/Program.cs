@@ -6,17 +6,23 @@ internal int total;
     internal Order(int total) {
         this.total = total;
     }
-    public int AddAmount(int total) {
-        total += 1;
+    public void AddAmount(int amount) {
+        this.total += amount;
     }
 
-    public int ApplyDiscount(int total) {
-        
+    public void ApplyDiscount(int discount) {
+        this.total -= discount;
     }
-    static void Main(int[] args)
+
+    public int GetTotal() {
+        return this.total;
+    }
+    static void Main(string[] args)
     {
-        
+        Order food = new Order(10);
+        food.AddAmount(5);
+        food.ApplyDiscount(1);
+        Console.WriteLine(food.GetTotal());
     }
-
 
 }
