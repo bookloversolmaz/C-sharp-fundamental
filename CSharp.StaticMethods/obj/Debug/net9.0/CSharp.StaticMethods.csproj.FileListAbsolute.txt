@@ -1,0 +1,15 @@
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/bin/Debug/net9.0/CSharp.StaticMethods
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/bin/Debug/net9.0/CSharp.StaticMethods.deps.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/bin/Debug/net9.0/CSharp.StaticMethods.runtimeconfig.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/bin/Debug/net9.0/CSharp.StaticMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/bin/Debug/net9.0/CSharp.StaticMethods.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.AssemblyInfoInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.AssemblyInfo.cs
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.csproj.CoreCompileInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.sourcelink.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/refint/CSharp.StaticMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/CSharp.StaticMethods.genruntimeconfig.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.StaticMethods/obj/Debug/net9.0/ref/CSharp.StaticMethods.dll

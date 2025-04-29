@@ -1,0 +1,15 @@
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/bin/Debug/net9.0/CSharp.Quiz
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/bin/Debug/net9.0/CSharp.Quiz.deps.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/bin/Debug/net9.0/CSharp.Quiz.runtimeconfig.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/bin/Debug/net9.0/CSharp.Quiz.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/bin/Debug/net9.0/CSharp.Quiz.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.AssemblyInfoInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.AssemblyInfo.cs
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.csproj.CoreCompileInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.sourcelink.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/refint/CSharp.Quiz.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/CSharp.Quiz.genruntimeconfig.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.Quiz/obj/Debug/net9.0/ref/CSharp.Quiz.dll
