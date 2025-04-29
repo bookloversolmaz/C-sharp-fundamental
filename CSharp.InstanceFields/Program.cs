@@ -1,15 +1,33 @@
 ﻿namespace CSharp.InstanceFields;
 
-class Post {
+using System;
+class Quiz {
 // This class has two fields both hold strings
-string content;
-string author;
+string questionOne;
+string questionTwo;
 // constructor
-  Post(string content, string author) {
-    this.content = content;
-    this.author = author;
+  public Quiz(string questionOne, string questionTwo) {
+    this.questionOne = questionOne;
+    this.questionTwo  = questionTwo ;
   }
-
 }
-Post weather = new Post("The weather today is great", "Serena");
-Post holiday = new Post("Just about to head off to the Solomon Islands!", "Kevwe");
+
+class ProgrammingLanguage {
+string name;
+int yearOfCreation;
+string creator;
+  public ProgrammingLanguage (string name, int yearOfCreation, string creator) {
+    this.name = name;
+    this.yearOfCreation = yearOfCreation;
+    this.creator = creator;
+  }
+}
+
+class Program {
+    static void Main(string[] args) {
+        Quiz capital = new Quiz("What is the capital of Burkina Faso?", "What is the capital of Bhutan?");
+        ProgrammingLanguage csharp = new ProgrammingLanguage("C#", 2000, "Hejlsberg et al");
+        Console.WriteLine(capital);
+        Console.WriteLine(csharp);
+    }
+}
