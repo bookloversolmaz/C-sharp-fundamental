@@ -28,7 +28,7 @@ using System;
 //         // Unlike strings, the instance field here is a variable, not the value itself. Pass in the value rather than initialising a variable
 //         // Create instance of class
 //         ReadingList NewReadingList = new ReadingList(new string[5] { "", "Harry Potter", "", "Lord of the Rings", "" });
-//         string[] newBook = NewReadingList.Add("book1"); //create instance field
+        // string[] newBook = NewReadingList.Add("book1"); //create instance field
 //         // Unlike strings, arrays can't be printed directly.
 //         // Printing newbook only will print the type name
 //         // Use join to iterate over array and concatenate strings with a comma in between and return a single string
@@ -38,6 +38,40 @@ using System;
 // }
 
 class Queue {
+    // Each string is the name of a person in the queue. A list of strings
+    internal List<string> people;
+    internal Queue(List<string> people){
+        this.people = people;
+    }
+    // Add people to the end of the list
+    public List<string> Add (string person) {
+        people.Add(person);
+        return people;
+    }
+    // Get and remove the first person in the list
+    public List<string> Next () {
+        people.Remove(people[0]);
+        return people;
+    }
+    // Print list of people currently queuing
+    public List<string> State() {
+        return people;
+    }
 
+
+}
+// Process in the Main method of Program
+class Program {
+    static void Main(string[] args) {
+        Queue newQueue = new Queue(new List<string>{"Harry", "Hermione", "Ron", "Hagrid"});
+        // Print new queue using add method
+        List<string> addQueue = newQueue.Add("Tom");
+        Console.WriteLine(string.Join(", ", addQueue));
+        // Print new queue with next method
+        List<string> nextQueue = newQueue.Next();
+        Console.WriteLine(string.Join(", ", nextQueue));
+
+        Console.WriteLine(string.Join(", ", nextQueue));
+    }
 
 }
