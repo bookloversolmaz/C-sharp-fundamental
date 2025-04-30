@@ -44,14 +44,14 @@ class Queue {
         this.people = people;
     }
     // Add people to the end of the list
-    public List<string> Add (string person) {
+    public void Add (string person) {
         people.Add(person);
-        return people;
+        // return people;
     }
     // Get and remove the first person in the list
-    public List<string> Next () {
+    public void Next () {
         people.Remove(people[0]);
-        return people;
+        // return people;
     }
     // Print list of people currently queuing
     public List<string> State() {
@@ -65,13 +65,12 @@ class Program {
     static void Main(string[] args) {
         Queue newQueue = new Queue(new List<string>{"Harry", "Hermione", "Ron", "Hagrid"});
         // Print new queue using add method
-        List<string> addQueue = newQueue.Add("Tom");
-        Console.WriteLine(string.Join(", ", addQueue));
+        newQueue.Add("Tom");
+        Console.WriteLine(string.Join(", ", newQueue.State()));
         // Print new queue with next method
-        List<string> nextQueue = newQueue.Next();
-        Console.WriteLine(string.Join(", ", nextQueue));
+        newQueue.Next();
+        Console.WriteLine(string.Join(", ", newQueue.State()));
 
-        Console.WriteLine(string.Join(", ", nextQueue));
     }
 
 }
