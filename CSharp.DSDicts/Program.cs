@@ -139,4 +139,11 @@ class RockPaperScissors {
     // Method takes player 1 play and loops through outer nested loop till it finds the matching play.
     // Then takes player 2 play and loops through inner loop till it finds the matching play
     // Prints the outcome as a string. But how? Find play and then the outcome associated with that by finding the string to the right of the equals sign?
+    public string Game(string playerOne, string playerTwo) {
+        // Loop through outer dict
+        foreach(string playerOne in rules) {
+            // Use if to find option that matches playerones play
+            if (playerOne == )
+        }
+    }
 }
