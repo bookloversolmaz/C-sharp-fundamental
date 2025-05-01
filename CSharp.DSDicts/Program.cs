@@ -115,35 +115,52 @@ using System;
 class RockPaperScissors {
     // an instance field of a nested dict. Looks like { "rock"{"rock" = "draw", "paper" = lose, "scissors" = win} {}}
     // outer key holders player 1s play, the inner nested holds player 2 options and their outcomes.
-    public static Dictionary<string, Dictionary<string, string>> rules = new Dictionary<string, Dictionary<string, string>> {
-        ["rock"] = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-        {
-            ["rock"] = "draw",
-            ["paper"] = "lose",
-            ["scissors"] = "win"
+        public static Dictionary<string, Dictionary<string, string>> rules = new Dictionary<string, Dictionary<string, string>>(StringComparer.OrdinalIgnoreCase)
+    {
+        { "rock", new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+            {
+                { "rock", "draw" },
+                { "paper", "lose" },
+                { "scissors", "win" }
+            }
         },
-        ["paper"] = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-        {
-            ["rock"] = "win",
-            ["paper"] = "draw",
-            ["scissors"] = "lose"
+        { "paper", new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+            {
+                { "rock", "win" },
+                { "paper", "draw" },
+                { "scissors", "lose" }
+            }
         },
-        ["scissors"] = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-        {
-            ["rock"] = "lose",
-            ["paper"] = "win",
-            ["scissors"] = "draw"
+        { "scissors", new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+            {
+                { "rock", "lose" },
+                { "paper", "win" },
+                { "scissors", "draw" }
+            }
         }
     };
+
 
     // Method takes player 1 play and loops through outer nested loop till it finds the matching play.
     // Then takes player 2 play and loops through inner loop till it finds the matching play
     // Prints the outcome as a string. But how? Find play and then the outcome associated with that by finding the string to the right of the equals sign?
     public string Game(string playerOne, string playerTwo) {
-        // Loop through outer dict
-        foreach(string playerOne in rules) {
-            // Use if to find option that matches playerones play
-            if (playerOne == )
-        }
+        if (rules.ContainsKey(playerOne) && rules[playerOne].ContainsKey(playerTwo))
+    {
+        string result = rules[playerOne][playerTwo];
+        return $"Player one {result}s!";
+    } else {
+        return "Invalid input";
+    }
+}
+ 
+}
+class Program
+{
+    static void Main(string[] args) {
+
+        RockPaperScissors gameOne = new RockPaperScissors();
+        string gameOnePlay = gameOne.Game("paper", "sCISSORS");
+        Console.WriteLine(gameOnePlay);
     }
 }
