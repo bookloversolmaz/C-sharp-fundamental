@@ -3,7 +3,7 @@ using System;
 
 // Exercise 1: dict of quiz names and their scores
 // class Quiz {
-//     internal Dictionary<string, int> scores; // keys = team names, vales are scores
+//     internal Dictionary<string, int> scores; // keys = team names, values are scores
 //     internal Quiz(Dictionary<string, int> scores) {
 //         this.scores = scores;
 //     }
