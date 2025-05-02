@@ -1,4 +1,4 @@
-﻿namespace CSharp.Games;
+﻿namespace CSharp.DictGames;
 using System;
 
 class ScrabbleScore {
