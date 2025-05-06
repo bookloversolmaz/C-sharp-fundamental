@@ -1,0 +1,15 @@
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.GeneratedMSBuildEditorConfig.editorconfig
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.AssemblyInfoInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.AssemblyInfo.cs
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.csproj.CoreCompileInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.sourcelink.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/bin/Debug/net9.0/CSharp.InstanceFields
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/bin/Debug/net9.0/CSharp.InstanceFields.deps.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/bin/Debug/net9.0/CSharp.InstanceFields.runtimeconfig.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/bin/Debug/net9.0/CSharp.InstanceFields.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/bin/Debug/net9.0/CSharp.InstanceFields.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/refint/CSharp.InstanceFields.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/CSharp.InstanceFields.genruntimeconfig.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceFields/obj/Debug/net9.0/ref/CSharp.InstanceFields.dll

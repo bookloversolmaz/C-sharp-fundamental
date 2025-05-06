@@ -1,0 +1,15 @@
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/bin/Debug/net9.0/CSharp.InstanceMethods
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/bin/Debug/net9.0/CSharp.InstanceMethods.deps.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/bin/Debug/net9.0/CSharp.InstanceMethods.runtimeconfig.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/bin/Debug/net9.0/CSharp.InstanceMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/bin/Debug/net9.0/CSharp.InstanceMethods.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.AssemblyInfoInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.AssemblyInfo.cs
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.csproj.CoreCompileInputs.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.sourcelink.json
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/refint/CSharp.InstanceMethods.dll
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.pdb
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/CSharp.InstanceMethods.genruntimeconfig.cache
+/Users/solmazpurser/csharp-fundamentals-materials/development/CSharp.InstanceMethods/obj/Debug/net9.0/ref/CSharp.InstanceMethods.dll
